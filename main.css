@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #26bb64;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button {
+    padding: 4px;
+    width: 25%;
+    margin: 4px;
+}
+
+button {
+    margin-top: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
