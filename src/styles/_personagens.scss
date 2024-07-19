@@ -1,0 +1,83 @@
+@use 'variaveis';
+
+.personagens {
+    padding: 2vw 5.6vw;
+    min-height: 50vw;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    &__list {
+        margin-top: 44px;
+        display: none;
+        grid-template-columns: 1fr;
+        gap: 24px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
+        &--is-active {
+            display: grid;
+        }
+
+        &__item {
+            display: flex;
+
+            p {
+                margin: 24px 48px;
+            }
+
+            img {
+                max-width: 25%;
+                border-radius: 4px;
+
+                @media (max-width: 768px) {
+                    max-width: 100%;
+                }
+            }
+
+            @media (max-width: 768px) {
+                display: grid;
+
+                p {
+                    margin: 12px 24px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+    &__tabs {
+        display: flex;
+        justify-content: center;
+
+        @media (max-width: 768px) {
+            display: block;
+            text-align: center;
+            padding: 18px;
+        }
+
+        &__button {
+            color: variaveis.$corTextoSecundario;
+            font-size: 20px;
+            border: none;
+            padding-bottom: 5px;
+            background: none;
+            text-transform: uppercase;
+            margin: 0 1vw;
+            cursor: pointer;
+            border-bottom: 5px solid transparent;
+
+            &--is-active {
+                border-color: variaveis.$corTextoSecundario;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 16px;
+            }
+        }
+    }
+}

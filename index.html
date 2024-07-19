@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landingpage Exercício M21</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="title--big">WarCraft</h1>
+            <h3 class="title--small">
+                O Primeiro Encontro de Dois Mundos
+            </h3>
+            <p>
+                <a href="#" class="link-text">
+                    Confira as plataformas disponíveis
+                    <br>
+                </a>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/logos/apple_tv.png" alt="Apple TV">
+                    <button class="button">Assine Agora</button>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/logos/netflix.webp" alt="Netflix">
+                    <button class="button">Assine Agora</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/sinopse.jpg" alt="Durotan, Garona, Lothar e Khadgar">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Sinopse</h2>
+            <p class="text--big">
+                Em busca de uma nova terra para viver, os guerreiros Orc atravessam um portal e chegam até Azeroth, uma região pacífica que vira um campo de batalha pela sobrevivência de dois povos.
+            </p>
+        </div>
+    </section>
+    <section class="personagens">
+        <h2 class="title">Personagens</h2>
+        <nav class="personagens__tabs">
+            <button data-tab-button="draka" class="personagens__tabs__button personagens__tabs__button--is-active">
+                Draka
+            </button>
+            <button data-tab-button="durotan" class="personagens__tabs__button">
+                Durotan
+            </button>
+            <button data-tab-button="garona" class="personagens__tabs__button">
+                Garona
+            </button>
+            <button data-tab-button="khadgar" class="personagens__tabs__button">
+                Khadgar
+            </button>
+            <button data-tab-button="lothar" class="personagens__tabs__button">
+                Lothar
+            </button>
+            <button data-tab-button="medivh" class="personagens__tabs__button">
+                Medivh
+            </button>
+        </nav>
+        <ul data-tab-id="draka" class="personagens__list personagens__list--is-active">
+            <li class="personagens__list__item">
+                <img src="./dist/images/personagens/draka.jpeg" alt="">
+                <p class="text--big">
+                    Draka é uma corajosa guerreira do clã Lobo de Gelo , companheira de Durotan e mãe de Go'el (Thrall).
+                </p>
+            </li>
+        </ul>
+        <ul data-tab-id="durotan" class="personagens__list">
+            <li class="personagens__list__item">
+                <img src="./dist/images/personagens/durotan.jpg" alt="">
+                <p class="text--big">
+                    Durotan é o chefe guerreiro do clã Lobo de Gelo, companheiro de Draka e pai de Go'el (Thrall). 
+                </p>
+        </ul>
+        <ul data-tab-id="garona" class="personagens__list">
+            <li class="personagens__list__item">
+                <img src="./dist/images/personagens/garona.jpg" alt="">
+                <p class="text--big">
+                    Garona é uma meio-orc, meio-draenei. Ela é uma assassina que se torna uma emissária da Horda durante a primeira invasão de Azeroth.
+                </p>
+            </li>
+        </ul>
+        <ul data-tab-id="khadgar" class="personagens__list">
+            <li class="personagens__list__item">
+                <img src="./dist/images/personagens/khadgar.jpg" alt="">
+                <p class="text--big">
+                    Khadgar se torna um aprendiz do Guardião Medivh, e é uma peça chave na batalha contra a Horda.
+                </p>
+            </li>
+        </ul>
+        <ul data-tab-id="lothar" class="personagens__list">
+            <li class="personagens__list__item">
+                <img src="./dist/images/personagens/lothar.jpg" alt="">
+                <p class="text--big">
+                    Sir Anduin Lothar, o Leão de Vento Tempestade, descendente da antiga linhagem Arathi e Campeão do Reino de Ventobravo.
+                </p>
+        </ul>
+        <ul data-tab-id="medivh" class="personagens__list">
+            <li class="personagens__list__item">
+                <img src="./dist/images/personagens/medivh.jpg" alt="">
+                <p class="text--big">
+                    Medivh é o último Guardião de Tirisfal, uma antiga linha de protetores concedidos a grandes poderes para lutar com os agentes da Legião Ardente.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Curiosidades</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    História
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p><span>A História é baseada na saga WarCraft, criada pela Blizzard, com o primeiro jogo lançado em 1994. </span></p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Elenco
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p><span>A obra conta com um elenco de peso, tendo os papeis principais interpretados por:</span></p>
+                    <br>
+                    <ul style="padding-left: 48px;">
+                        <li>
+                            <p><span>Travis Fimmel como Lothar</span></p><br>
+                        </li>
+                        <li>
+                            <p><span>Paula Patton como Garona Meiorken</span></p><br>
+                        </li>
+                        <li>
+                            <p><span>Ben Schnetzer como Khadgar</span></p><br>
+                        </li>
+                        <li>
+                            <p><span>Dominic Cooper como Rei Llane</span></p><br>
+                        </li>
+                        <li>
+                            <p><span>Ben Foster como Medivh</span></p><br>
+                        </li>
+                        <li>
+                            <p><span>Toby Kebbell como Durotan</span></p><br>
+                        </li>
+                        <li>
+                            <p><span>Clancy Brown como Mão Negra</span></p><br>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Bilheteria
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p><span>A obra contou com um orçamento de US$ 160 milhões e arrecadou US$439,1 milhões</a></span></p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+                        <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="globe">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncio personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                © 2024 Felipe B., Curso EBAC - Escola britânica de artes criativas & tecnologia.
+            </p>
+            <p class="text--small">
+                Landingpage criada pelo aluno Felipe a partir do projeto Clone Disney do Módulo 21 do curso de Desenvolvedor Full Stack Python da EBAC, utilizando o GULP.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
