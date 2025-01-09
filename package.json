@@ -1,0 +1,26 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F3lipeB/curso_ebac_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/F3lipeB/curso_ebac_frontend/issues"
+  },
+  "homepage": "https://github.com/F3lipeB/curso_ebac_frontend#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "mochawesome": "^7.1.3"
+  }
+}
